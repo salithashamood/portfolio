@@ -449,14 +449,14 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  gap: 22px;
   padding-bottom: 4px;
   padding-left: 7px;
 }
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
@@ -522,6 +522,17 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+/**
+ * #personal-infomation 
+ */
+
+ .personal-infomation { margin-bottom: 35px; }
+
+ .personal-infomation-title { margin-bottom: 20px; }
+ 
+ .personal-infomation td {
+   padding-right: 15px;
+ }
 
 
 /**
@@ -1869,11 +1880,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contacts-list { grid-template-columns: 1fr; }
 
-  .contact-info :is(.contact-link) {
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    /* text-overflow: ellipsis; */
-  }
 
   .contact-info :is(.contact-link, time, address) {
     --fs-7: 13px;
